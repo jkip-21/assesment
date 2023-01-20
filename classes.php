@@ -15,21 +15,21 @@
             switch($units) {
                 case $units >= 0 && $units <= 20:
                     $ammount = $units * 35;
-                    echo"<h3 style=\"color: rgb(7, 116, 79);margin-left: 20px; font-size: 25px\"> Ammount: $ammount</h3>";
+                    echo"<p style=\"color: #283618;margin-left: 20px; font-size: 25px\"> Ammount: $ammount</p>";
                     break;
                 case $units > 20 && $units <= 49:
                     $ammount = $units * 40;
-                    echo"<h3 style=\"color: rgb(7, 116, 79);margin-left: 20px; font-size: 25px\"> Ammount: $ammount</h3>";
+                    echo"<p style=\"color: #283618;margin-left: 20px; font-size: 25px\"> Ammount: $ammount</p>";
                     break;
                 case $units > 49 && $units <= 100:
                     $ammount = $units * 45;
-                    echo"<h3 style=\"color: rgb(7, 116, 79);margin-left: 20px; font-size: 25px\"> Ammount: $ammount</h3>";
+                    echo"<p style=\"color: #283618;margin-left: 20px; font-size: 25px\"> Ammount: $ammount</p>";
                     break;
                 case $units > 100:
                     $ammount = $units * 50;
-                    echo"<h3 style=\"color: rgb(7, 116, 79);margin-left: 20px; font-size: 25px\"> Ammount: $ammount</h3>";
+                    echo"<p style=\"color: #283618;margin-left: 20px; font-size: 25px\"> Ammount: $ammount</p>";
                     break;
-                default: echo"<h3 style=\"color: rgb(7, 116, 79);margin-left: 20px; font-size: 25px\"> Ammount: 0</h3>";;
+                default: echo"<p style=\"color: #283618;margin-left: 20px; font-size: 25px\"> Ammount: 0</p>";;
             }
         }
     }

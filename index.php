@@ -19,9 +19,9 @@
     <?php
     include "classes.php";
     echo "
-    <h3 style=\"color: rgb(7, 116, 79);margin-left: 20px; font-size: 25px\"> Bill Records</h3>";
+    <p style=\"color: #283618;margin-left: 20px; font-size: 30px; font-weight: bold;\"> Bill Records</p>";
     $name = $_POST['name'];
-    echo "<h3 style=\" margin-left: 20px; color: rgb(7, 116, 79); font-size: 25px\">Name: $name</h3>";
+    echo "<p style=\" margin-left: 20px; color: #283618; font-size: 30px; font-weight: bold;\">Name: $name</p>";
     echo "<br>";
     $bill1 = new Unit();
     echo $bill1->ammountCalc();
